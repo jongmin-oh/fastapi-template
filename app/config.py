@@ -18,6 +18,8 @@ class Config(BaseSettings):
     PORT: Optional[int] = None
     LOG_LEVEL: Optional[str] = None
 
+    ACCESS_TOKEN: Optional[str] = None
+
     class Config:
         env_file: str = ".env"
 
